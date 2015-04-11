@@ -11,7 +11,7 @@ from datetime import datetime
 from random import randint
 import time
 
-for i in open('authToken.txt'):
+for i in open('/home/tim/Line_Bot/authToken.txt'): #用絕對目錄是為了執行crontab
      ID = i
 	
 
